@@ -100,7 +100,7 @@ filter {
  }
 ```
 
-## Validation
+### Validation
 
 [Run the Agent's `status` subcommand][12] and look for `logstash` under the Checks section.
 
@@ -133,7 +133,7 @@ Returns `Critical` if the Agent cannot connect to Logstash to collect metrics, r
 
 Check that the `url` in `conf.yaml` is correct.
 
-If you need further help, contact [Datadog Support][14].
+If you need further help, contact [Datadog support][14].
 
 [1]: https://app.datadoghq.com/account/settings#agent
 [2]: https://app.datadoghq.com/account/settings#agent

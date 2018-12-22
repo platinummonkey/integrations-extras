@@ -10,8 +10,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Note: these are the names of the folder containing the check
 AGENT_BASED_INTEGRATIONS = [
+    'eventstore',
     'reboot_required',
     'sortdb',
+    'traefik',
 ]
 
 # If a file changes in a PR with any of these file extensiosn, a test will run against the check containing the file

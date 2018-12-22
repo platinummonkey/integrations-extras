@@ -42,7 +42,7 @@ See [metadata.csv][5] for a list of metrics provided by this check.
 The Storm check does not include any events at this time.
 
 ### Service Checks
-**`topology-check.{}`**
+**`topology_check.{TOPOLOGY NAME}`**
 
 The check returns:
 
@@ -50,7 +50,7 @@ The check returns:
 * `CRITICAL` if the topology is not active.
 
 ## Troubleshooting
-Need help? Contact [Datadog Support][6].
+Need help? Contact [Datadog support][6].
 
 [1]: https://app.datadoghq.com/account/settings#agent
 [2]: https://github.com/DataDog/integrations-extras/blob/master/storm/conf.yaml.example
